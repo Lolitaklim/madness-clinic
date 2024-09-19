@@ -1,0 +1,54 @@
+.information {
+  background-color: var(--teal);
+  margin-top: -50px;
+  padding-top: 168px;
+  padding-bottom: 70px;
+}
+
+.information_item {
+  border: 1px solid var(--white);
+  border-radius: 20px;
+  padding: 28px;
+  padding-bottom: 10px;
+  margin-bottom: 60px;
+  max-width: 1110px;
+}
+
+.information_title {
+  margin: 0;
+  margin-bottom: 40px;
+  font-size: 24px;
+  line-height: 26.4px;
+  color: var(--white);
+}
+
+.information_text {
+  font-size: 14px;
+  line-height: 19px;
+  color: var(--white);
+  max-width: 1114px;
+}
+
+@media (max-width: 1230px) {
+  .information {
+    margin-top: 62px;
+    padding-top: 40px;
+    padding-bottom: 70px;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-bottom: 20px;
+  }
+
+  .information_item {
+    margin-bottom: 20px;
+  }
+
+  .information_title {
+    width: 306px;
+  }
+
+  .information_text {
+    font-size: 12px;
+    line-height: 16px;
+  }
+}

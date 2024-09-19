@@ -1,0 +1,165 @@
+.services {
+  padding-top: 102px;
+}
+
+.services_title {
+  margin-bottom: 0;
+  font-size: 44px;
+  line-height: 48px;
+  max-width: 754px;
+  color: var(--dark-blue);
+}
+
+.services_text {
+  padding-top: 8px;
+  max-width: 510px;
+  font-size: 16px;
+  line-height: 24px;
+  color: var(--gray);
+}
+
+.services_cards {
+  padding-top: 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.services_cards_card {
+  border: 1px solid var(--teal);
+  border-radius: 20px;
+  padding: 28px;
+  padding-bottom: 14px;
+  flex: 1 1 calc(45% - 42px);
+  display: flex;
+  flex-direction: column;
+  min-height: 210px;
+}
+
+.card_title {
+  margin: 0;
+  font-size: 24px;
+  line-height: 26px;
+  color: var(--teal);
+}
+
+.card_text {
+  margin-top: auto;
+
+  font-size: 16px;
+  line-height: 22px;
+  color: var(--teal);
+}
+
+.services_cards_card:first-child {
+  background-color: var(--teal);
+}
+
+.services_cards_card:first-child .card_title {
+  color: var(--white);
+}
+
+.services_cards_card:first-child .card_text {
+  color: var(--white);
+}
+
+.services_cards_card:nth-child(odd) {
+  max-width: 580px;
+}
+
+.services_cards_card:nth-child(odd) .card_text {
+  max-width: 550px;
+  padding-right: 40px;
+}
+
+.services_cards_card:nth-child(even) {
+  max-width: 432px;
+}
+
+.services_cards_card:nth-child(even) .card_text {
+  max-width: 420px;
+  padding-right: 10px;
+}
+
+.services_cards_card:nth-child(-n + 2) {
+  min-height: 350px;
+}
+
+@media (max-width: 1220px) {
+  .services {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+@media (max-width: 850px) {
+  .mobile-br {
+    display: inline-block;
+  }
+  .services {
+    padding-top: 33px;
+  }
+
+  .services_head {
+    margin: 0 auto;
+    width: 363px;
+  }
+
+  .services_title {
+    width: 360px;
+    text-align: center;
+    font-size: 32px;
+    line-height: 35px;
+  }
+
+  .services_text {
+    text-align: center;
+    max-width: 363px;
+    font-size: 14px;
+    line-height: 19px;
+  }
+
+  .services_cards {
+    flex-direction: column;
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+
+  .services_cards_card {
+    margin: 0 auto;
+    min-height: 10px;
+    padding-right: 10px;
+  }
+
+  .card_title {
+    margin-bottom: 40px;
+  }
+
+  .card_text {
+    font-size: 14px;
+    line-height: 19px;
+  }
+
+  .services_cards_card:nth-child(odd) {
+    max-width: none;
+  }
+
+  .services_cards_card:nth-child(odd) .card_text {
+    max-width: none;
+    padding-right: 10px;
+  }
+
+  .services_cards_card:nth-child(even) {
+    max-width: none;
+  }
+
+  .services_cards_card:nth-child(even) .card_text {
+    max-width: none;
+    padding-right: none;
+  }
+
+  .services_cards_card:nth-child(-n + 2) {
+    min-height: 10px;
+  }
+}

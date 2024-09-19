@@ -1,0 +1,118 @@
+.about {
+  padding-top: 110px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 70px;
+  max-width: 1440px;
+  padding-left: 136px;
+  margin: 0 auto;
+}
+
+.about-us {
+  margin-top: 114px;
+  width: 409px;
+}
+
+.about-us_title {
+  margin-top: 22px;
+  font-size: 44px;
+  line-height: 22px;
+  color: var(--teal);
+  margin-bottom: 34px;
+}
+
+.about-us_text {
+  padding: 0;
+  margin: 0;
+  max-width: 409px;
+  padding-top: 0px;
+  color: var(--teal);
+  line-height: 22px;
+}
+
+.mission {
+  padding: 40px;
+  padding-right: 0px;
+  padding-bottom: 26px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  background-color: var(--teal);
+  padding-right: 136px;
+}
+
+.mission_title {
+  margin: 0;
+  font-size: 44px;
+  line-height: 49px;
+  letter-spacing: 1px;
+  color: var(--white);
+}
+
+.mission_text {
+  padding-top: 6px;
+  font-size: 16px;
+  line-height: 22px;
+  color: var(--white);
+  max-width: 651px;
+}
+
+@media (max-width: 1200px) {
+  .mission {
+    padding-right: 90px;
+  }
+}
+
+@media (max-width: 800px) {
+  .about {
+    padding-top: 30px;
+    flex-direction: column;
+    gap: 44px;
+    padding-left: 0px;
+  }
+
+  .about-us {
+    width: 361px;
+    margin: 0 auto;
+    margin-top: 14px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .about-us_title {
+    font-size: 32px;
+    line-height: 35px;
+    padding-bottom: 10px;
+  }
+
+  .about-us_text {
+    margin: 0 auto;
+    max-width: 360px;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+  }
+
+  .mission {
+    margin-left: 16px;
+  }
+
+  .mission_title {
+    font-size: 44px;
+    letter-spacing: 0.6px;
+    width: 296px;
+  }
+
+  .mission_text {
+    max-width: 720px;
+    font-size: 12px;
+    line-height: 16px;
+  }
+}
+
+@media (max-width: 500px) {
+  .mission {
+    padding-right: 10px;
+  }
+}
